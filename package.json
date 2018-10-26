@@ -262,7 +262,8 @@
     "browser-sync": "^2.26.3"
   },
   "scripts": {
-    "browser-sync": "browser-sync start --server --files index.html styles.css"
+    "browser-sync": "browser-sync start --server --files index.html styles.css",
+    "sass": "node-sass styles.scss styles.css"
   },
   "repository": {
     "type": "git",
