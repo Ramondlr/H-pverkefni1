@@ -2,6 +2,10 @@
 
 *.md text
 *.css text
+<<<<<<< HEAD
+*.scss text
+=======
+>>>>>>> ccfb73787354e61c7865f02c2ddb1b3182b743a5
 *.js text
 *.ejs text
 *.json text
