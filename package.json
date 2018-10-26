@@ -1,18 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "vefforritun",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "browser-sync": "browser-sync start --server --files index.html styles.css"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "browser-sync": "^2.26.3"
-  }
-=======
   "name": "vefforritun-hp1",
   "version": "1.0.0",
   "description": "\"Hp1\"",
@@ -289,5 +275,4 @@
     "url": "https://github.com/Ramondlr/H-pverkefni1/issues"
   },
   "homepage": "https://github.com/Ramondlr/H-pverkefni1#readme"
->>>>>>> ccfb73787354e61c7865f02c2ddb1b3182b743a5
 }
