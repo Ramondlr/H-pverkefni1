@@ -16,9 +16,9 @@
       padding-right: 10px;
       padding-left: 10px;
     }
-    .gridcard__row:last-child {
+    /*.gridcard__row:last-child {
         margin-bottom: $gutter;
-    }    
+    }*/    
   }
   @media (max-width: 590px) {
     .gridcard {
@@ -32,9 +32,9 @@
   
   .gridcard__card {
       position: relative;
-      @include transitions(transform);
+      //@include transitions(transform);
       transform-style: preserve-3d;
-  }
+  } 
   .gridcard__text {
     text-align: center;
   }  
@@ -52,9 +52,9 @@
       flex-direction: column;
       transform: rotateY(180deg);
     }
-    .gridcard__row:last-child {
-      margin-bottom: $gutter*2;
-    }
+    /*.gridcard__row:last-child {
+      margin-bottom: $gutter * 2;
+    }*/
     .gridcard__image {
       max-width: 100%;
     }  
