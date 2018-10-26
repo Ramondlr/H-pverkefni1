@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
@@ -22,5 +23,8 @@ yarn-error.log*
 
 .env
 
+=======
+node_modules/
+>>>>>>> ccfb73787354e61c7865f02c2ddb1b3182b743a5
 # sleppum styles.css þar sem það verður búið til út frá styles.scss
 styles.css

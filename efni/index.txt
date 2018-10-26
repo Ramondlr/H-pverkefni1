@@ -14,7 +14,11 @@ Starfsfólkið okkar hugsar vel um þig.
 Kynnast starfsfólki
 Mynd af höndum teymisins
 Vöruflokkar
+<<<<<<< HEAD
 Nauðsynjavör
+=======
+Nauðsynjavörur
+>>>>>>> ccfb73787354e61c7865f02c2ddb1b3182b743a5
 Frábærar vörur
 Ómissandi vörur
 Ótrúlegar vörur
