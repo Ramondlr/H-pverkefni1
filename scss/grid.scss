@@ -1,0 +1,53 @@
+.grid {
+  max-width: $maxwidth;
+  margin: 0 auto;
+}
+
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: $gutter 0;
+  margin-right: -$gutter / 2;
+  margin-left: -$gutter / 2;
+}
+
+.grid__col {
+  padding: $gutter / 2;
+}
+
+.grid__col-12 {
+  width: 100%;
+}
+
+.grid__col-8 {
+  width: 66.67%;
+}
+
+.grid__col-6 {
+  width: 50%;
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+}
+
+.grid__col-4 {
+  width: 33.334%;
+  @media (max-width: 800px) {
+    width: 50%;
+  }
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+}
+
+.grid__col-3 {
+  width: 25%;
+  @media (max-width: 800px) {
+    width: 50%;
+  }
+}
+
+.grid__col-offset-2 {
+  margin-left: 16.67%
+}

@@ -1,1 +1,26 @@
 // TODO stillingar hér
+$white: #fff;
+$cream: #fcffd2;
+$black: #000;
+$azure: #cee8ff;
+$red: #cc9694;
+$sand: #afb281;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: verdana, Oswald, serif;
+}
+
+@mixin transitions($property) {
+  transition: $property 300ms ease-in-out;
+}
+
+@mixin squeezepad {
+  @media (max-width: 1200px) {
+    padding-left: $gutter;
+    padding-right: $gutter;
+  }
+}
+
+$gutter: 20px;
+$maxwidth: 1200px;
+

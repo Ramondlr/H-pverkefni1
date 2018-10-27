@@ -1,0 +1,33 @@
+.fotur_list {
+  padding: $gutter 0;
+  list-style-type: none;
+}
+
+.fotur {
+  background-color: $red;
+  @include squeezepad;
+}
+
+.fotur__copyright {
+  padding-bottom: $gutter*2;
+  text-align: center;
+}
+
+.fotur__li {
+  padding: $gutter/4 0;
+}
+
+.fotur__li__catagory {
+  padding-bottom: $gutter;
+}
+
+.fotur__link {
+  font-weight: 600;
+  color: $cream;
+  text-decoration: none;
+  @include transitions(color);
+}
+
+.fotur__link:hover {
+  color: $black;
+}

@@ -14,14 +14,18 @@
 html { /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  font-size: 16px;
 
   // TODO fleiri grunn stillingar
 }
 
-
-
 // TODO sækja allar sass skrár
-@import "scss/staff";
-/*@import "scss/products";
-@import "scss/cart";*/
-
+@import "scss/grid.scss";
+@import "scss/fotur.scss";
+@import "scss/haus.scss";
+@import "scss/forms.scss";
+@import "scss/index.scss";
+@import "scss/staff.scss";
+@import "scss/products.scss";
+@import "scss/cart.scss";

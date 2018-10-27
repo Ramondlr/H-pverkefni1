@@ -4,11 +4,96 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vöruhúsið</title>
-
-    <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
   </head>
   <body>
+    <header class="haus">
+      <div class="grid">
+        <div class="grid__row">
+          <h1 class="haus__h1">Vöruhúsið</h1>
+        </div>
+        <nav class="grid__row navbar">
+          <div class="haus__cart_link invisible_item">
+            Karfa (3)
+          </div>
+          <div class="navbar__content">
+            <a class="nav__link active_page" href="index.html">Forsíða</a>
+            <a class="nav__link" href="pages/products.html">vörur</a>
+            <a class="nav__link " href="pages/staff.html">Starfsfólk</a>
+          </div>
+          <div>
+            <a class="nav__link header__cart_link" href="pages/cart.html">Karfa (3)</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="index_main grid">
+      <div class="index_item grid__row">
+        <div class="grid__col grid__col-6 index_item__content">
+          <h2 class="index_item__title">Allar vörurnar</h2>
+          <p class="index_item__text">Vöruhúsið hefur allar þær vörur sem þig vantar.</p>
+          <a class="index_item__button" href="pages/cart.html">Skoða vörur</a>
+        </div>
+        <div class="grid__col grid__col-6">
+          <img class="index_img" src="img/products.jpg">
+        </div>
+      </div>
 
+      <div class="index_item grid__row sm_reverse_rows">
+        <div class="grid__col grid__col-6">
+          <img class="index_img" src="img/team.jpg">
+        </div>
+        <div class="grid__col grid__col-6 index_item__content">
+          <h2 class="index_item__title">Besta starfsfólkið</h2>
+          <p class="index_item__text">Starfsfólkið okkar hugsar vel um þig.</p>
+          <a class="index_item__button" href="pages/staff.html">Kynnast starfsfólki</a>
+        </div>
+      </div>
+    </main>
+    <footer class="fotur">
+      <div class="grid">
+        <div class="grid__row">
+            <div class="grid__col grid__col-3">
+              <ul class="fotur_list">
+                <li class="fotur__li__category"><h2>Vöruflokkar</h2></li>
+                <li class="fotur__li"><a class="fotur__link" href="pages/products.html">Nauðsynjavörur</a></li>
+                <li class="fotur__li"><a class="fotur__link" href="pages/products.html">Frábærar vörur</a></li>
+                <li class="fotur__li"><a class="fotur__link" href="pages/products.html">Ómissandi vörur</a></li>
+                <li class="fotur__li"><a class="fotur__link" href="pages/products.html">Ótrúlegar vörur</a></li>
+                <li class="fotur__li"><a class="fotur__link" href="pages/products.html">Magnaðar vörur</a></li>
+              </ul>
+            </div>
+            <div class="grid__col grid__col-3">
+              <ul class="fotur_list">
+                <li class="footer__li__category"><h2>Vöruflokkar</h2></li>
+                <li class="fotur__li"><a class="fotur__link" href="pages/products.html">Trylltar vörur</a></li>
+                <li class="fotur__li"><a class="fotur__link" href="pages/products.html">Geggjaðar vörur</a></li>
+                <li class="fotur__li"><a class="fotur__link" href="pages/products.html">Svakalegar vörur</a></li>
+                <li class="fotur__li"><a class="fotur__link" href="pages/products.html">Fáránlegar vörur</a></li>
+                <li class="fotur__li"><a class="fotur__link" href="pages/products.html">Klikkaðar vörur</a></li>
+              </ul>
+            </div>
+            <div class="grid__col grid__col-3">
+              <ul class="fotur_list">
+                <li class="footer__li__category"><h2>Vöruflokkar</h2></li>
+                <li class="fotur__li"><a class="fotur__link" href="pages/products.html">Nýjar vörur</a></li>
+                <li class="fotur__li"><a class="fotur__link" href="pages/products.html">Gamlar vörur</a></li>
+                <li class="fotur__li"><a class="fotur__link" href="pages/products.html">Skrítnar vörur</a></li>
+              </ul>
+            </div>
+            <div class="grid__col grid__col-3">
+              <ul class="fotur_list">
+                <li class="fotur__li__category"><h2>Síður</h2></li>
+                <li class="fotur__li"><a class="fotur__link" href="pages/products.html">Allar vörur</a></li>
+                <li class="fotur__li"><a class="fotur__link" href="pages/staff.html">Starfsfólk</a></li>
+                <li class="fotur__li"><a class="fotur__link" href="pages.cart.html">Karfa</a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      <div class="fotur__copyright"><p>© 2018 Vöruhúsið</p></div>
+    </footer>
   </body>
 </html>
