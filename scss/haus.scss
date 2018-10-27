@@ -17,14 +17,14 @@
   }
 }
 
-.navbar__content {
+.navbar__cont {
   @media (max-width: 500px) {
     width: 100%;
     padding-bottom: $gutter;
   }
 }
 
-.invisible_item {
+.invis_item {
   overflow: hidden;
   flex-shrink: 1;
   visibility: hidden;
